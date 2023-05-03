@@ -1,0 +1,49 @@
+[
+
+  {
+    "name": "Nykaa Clone",
+    "desc": "Nyka.com is an Indian online marketplace for beauty and wellness products. It offers a wide range of skincare, haircare, makeup, and personal care products from various brands.",
+    "image": "nyka",
+     "stacks":"js,html,css,git,netlify,vscode",
+    "links": {
+      "view": "https://nyka-777.netlify.app/",
+      "code": "https://github.com/Divyansh9058/jagged-insect-363"
+    },
+        "highlights" : ["On Landing page, product detail cards data Fetch through API.","Product Page with Filter by Product , Sort by Price"]
+  },
+  {
+    "name": "Delicious Pizza(Dominos Clone)",
+    "desc": "Delicious Pizza is a global pizza delivery and takeaway chain with a presence in over 90 countries. Customers can order pizzas, sides, desserts, and drinks online for delivery or pickup.",
+    "image": "dominos",
+    "stacks":"js,html,css,git,netlify,vscode",
+    "links": {
+      "view": "https://delicious-pizza.netlify.app",
+      "code": "https://github.com/Divyansh9058/Dominos-Clone"
+    },
+    "highlights" : ["Login Functionality With OTP","Used the REST API to Fetch the data"]
+  },
+  {
+    "name": "Budget Tracking Application",
+    "desc": "Budget Tracking Tpplication helps users stay on top of their finances by providing tools to track expenses and income, create custom budgets, and visualize their financial health in a user-friendly interface.",
+    "image": "budget",
+     "stacks":"html,css,js,bootstrap,nodejs,express,mongodb,redis,git,netlify,vscode",
+    "links": {
+      "view": "https://budget-buddy-777.netlify.app/",
+      "code": "https://github.com/ankitamaddheshiya/honorable-furniture-4728"
+    },
+        "highlights" : ["User Dashboard looks quite attractive and user-friendly","Google Oauth login validation"]
+  },
+  {
+    "name": "Nykaa Clone",
+    "desc": "Nyka.com is an Indian online marketplace for beauty and wellness products. It offers a wide range of skincare, haircare, makeup, and personal care products from various brands.",
+    "image": "nyka",
+     "stacks":"js,html,css,git,netlify,vscode",
+    "links": {
+      "view": "https://nyka-777.netlify.app/",
+      "code": "https://github.com/Divyansh9058/jagged-insect-363"
+    },
+        "highlights" : ["On Landing page, product detail cards data Fetch through API.","Product Page with Filter by Product , Sort by Price"]
+  }
+]
+
+
