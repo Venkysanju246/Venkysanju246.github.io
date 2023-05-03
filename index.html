@@ -1,359 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords"
-    content="Divyansh Goel, portfolio, personal portfolio, portfolio design, portfolio website, personal portfolio" />
-  <meta name="description" content="Welcome to Divyansh's Portfolio. Full Stack Developer" />
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./Assets/css/style.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
-  <!-- Favicon -->
-
-  <link id='favicon' rel="shortcut icon"
-    href=""
-    type="image/x-png">
-  <title>Portfolio | Venkatesh Saragadam</title>
-  <script src="https://unpkg.com/eva-icons"></script>
-</head>
-
-<body>
-
-  <video class="back-video" autoplay loop muted src="Video/video3sec.mp4"></video>
-
-  <!-- navbar starts -->
-  <header>
-    <a href="/" class="logo"><i class="fab fa-dev"></i>Venkatesh Saragadam</a>
-
-    <div id="menu" style="color: white;" class="fas fa-bars"></div>
-    <nav id="nav-menu" class="navbar">
-      <ul>
-        <li><a class="active nav-link home" href="#home">Home</a></li>
-        <li><a class="nav-link about" href="#about">About</a></li>
-        <li><a class="nav-link skills" href="#skills">Skills</a></li>
-        <li><a class="nav-link projects" href="#projects">Projects</a></li>
-        <li><a class="nav-link contact" href="#contact">Contact</a></li>
-        <li><button id="resume-button-1">
-            <a id="resume-link-1" href="Assets/Venkatesh-Saragadam-Resume.pdf" download
-              onclick="window.open('Assets/Venkatesh-Saragadam-Resume.pdf')" class="btn nav-link resume"><span>Resume</span>
-              <!-- <i class="fas fa-chevron-down"></i> -->
-            </a>
-          </button></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- navbar ends -->
-
-
-  <!-- hero section starts -->
-  <section class="home2" id="home">
-    <!-- <div id="particles-js">
-      
-
-    </div> -->
-
-    <div class="content">
-      <h2>Hi There,<br /> I'm Venkatesh <span>Saragadam</span></h2>
-      <p>i am into <span class="typing-text"></span></p>
-      <a href="#about" class="btn"><span>About Me</span>
-        <i class="fas fa-arrow-circle-down"></i>
-      </a>
-      <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/venkatesh-saragadam-93420b257/"
-              target="_blank"><i class="fab fa-linkedin"></i></a></li>
-          <li><a class="github" aria-label="GitHub" href="https://github.com/Venkysanju246" target="_blank"><i
-                class="fab fa-github"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="image">
-      <img draggable="false" class="tilt" id="new23" src="./Assets/images/banner2.png" alt=""
-        style="border-radius: 20%;">
-    </div>
-  </section>
-  <!-- hero section ends -->
-
-
-  <!-- about section starts -->
-  <section class="about about2 section" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-
-    <div class="row">
-
-      <div class="image">
-        <img draggable="false" class="tilt home-img" src="./Assets/images/venky-professional-photo.jfif" alt="">
-      </div>
-      <div class="content">
-        <h3 id="user-detail-name">I'm Venkatesh Saragadam <i class="fab fa-black-tie"></i></h3>
-        <span class="tag">Node Js Backend Developer<i
-            class="fas fa-mobile-altJava Backend DeveloperJava Backend Developer"></i></span>
-
-        <p id="user-detail-intro">Aspiring Node JS Backend developer skilled in  NodeJS, ExpressJS, MongoDB with a good grasp on core JavaScript concepts. Self-motivated with a strong problem-solving mindset and curious learner.
-          Keen interest in building user-centric products. Looking forward to working in a challenging role with a
-          growth-oriented organization. </p>
-
-        <div class="box-container">
-          <div class="box">
-            <!-- <p><span> age: </span> 22</p> -->
-            <p><span> email : </span> divyanshgoel777@gmail.com</p>
-            <p><span> phone : </span> +91 8439192987</p>
-            <p><span> place : </span> Pilkhuwa, Uttar Pradesh, India</p>
-          </div>
-          <div class="box">
-          </div>
-        </div>
-        <!--  -->
-        <div class="resumebtn">
-          <button id="resume-button-2">
-
-            <a id="resume-link-2" href="Assets/Venkatesh-Saragadam-Resume.pdf" download
-              onclick="window.open('Assets/Venkatesh-Saragadam-Resume.pdf')" class="btn"><span>Resume</span>
-              <i class="fas fa-chevron-right"></i>
-            </a>
-          </button>
-
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- about section ends -->
-
-  <!-- skills section starts -->
-  <section class="skills2" id="skills">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i><span> Skills</span></h2>
-
-    <div class="container">
-      <div class="row" id="skillsContainer">
-
-
-      </div>
-    </div>
-  </section>
-  <!-- skills section ends -->
-
-
-<!-- tools section starts -->
-  <section class="skills2" id="tools">
-
-    <h2 class="heading"><i class="fas fa-tools"> </i><span>Tools</span></h2>
-
-    <div class="container">
-      <div class="row" id="toolsContainer">
-
-
-      </div>
-    </div>
-  </section>
-  <!-- tools section ends -->
-
-
-
-  <section id="gitSection" style="text-align: center;">
-
-    <div id="heading-git">
-
-      <h1 id="ddd">My Github <span style="color: yellow">Contribution</span><span id="git-image"></span> </h1>
-
-
-    </div>
-
-
-
-    <div id="contri">
-
-
-      <div>
-        <img id="github-streak-stats" alt="7oSkaaa's Github Stats"
-          src="https://github-readme-streak-stats.herokuapp.com/?user=Venkysanju246&count_private=true&show_icons=true&custom_title=Github&theme=algolia&hide_border=true&bg_color=0,000000,130F40&layout=compact&border_radius=10" />
-
-      </div>
-
-
-      <div>
-        <img id="github-stats-card" alt="status github, commits, etc..."
-          src="https://github-readme-stats.vercel.app/api?username=Venkysanju246&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10&hide_border=true">
-      </div>
-      <!--  -->
-
-    </div>
-
-    <div id="contri2">
-      <img id="github-top-langs" alt="most used languages"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Venkysanju246&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&hide_border=true&langs_count=20&hide=hack,swift,kotlin,objective-c" />
-    </div>
-
-    <!-- Prepare a container for your calendar. -->
-    <script
-    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-  </script>
-  
-  <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-  />
-
-
-    <div class="calendar react-activity-calendar tilt" id="calendwer"></div>
-
-    <script>
-      // const GitHubCalendar = require("github-calender")
-      GitHubCalendar(".calendar", "Venkysanju246");
-  
-      // or enable responsive functionality:
-      GitHubCalendar(".calendar", "Venkysanju246", { responsive: true });
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/venky-professional-photo.jfif">
+    <!-- <link rel="stylesheet" href="gitcalendar.css"/> -->
     
-  </script>
-
-
-  </section>
-
-  <!-- work project section starts -->
-  <section class="work" id="projects">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-    <div class="box-container">
-
-
-
-    </div>
-
-  </section>
-  <!-- work project section ends -->
-
-
-  <!-- contact section starts -->
-  <section class="contact2" id="contact2">
-
-    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-
-    <div class="container">
-      <div class="content">
-        <div class="image-box">
-          <img draggable="false" src="./Assets/images/contact1.png" alt="">
-        </div>
-        <form id="contact-form">
-
-          <div class="form-group">
-            <div class="field">
-              <input type="text" name="name" placeholder="Name" required>
-              <i class='fas fa-user'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
-              <i class='fas fa-envelope'></i>
-            </div>
-            <div class="field">
-              <input type="text" name="phone" placeholder="Phone">
-              <i class='fas fa-phone-alt'></i>
-            </div>
-            <div class="message">
-              <textarea placeholder="Message" name="message" required></textarea>
-              <i class="fas fa-comment-dots"></i>
-            </div>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/gitStatsAndCalendar.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <title>Venkatesh Saragadam</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <nav id="nav-menu">
+        <div class="content">
+    
+          <div class="logo">
+            <img id="home_page_backImg" src="images/venky-professional-photo.jfif" alt="">
+            <a href="#">Venkatesh</a>
           </div>
-          <div class="button-area">
-            <button type="submit">
-              Submit <i class="fa fa-paper-plane"></i></button>
+    
+          <ul class="menu-list">
+            <div id="burger" class="icon cancel-btn">
+              <i  class="fas fa-times"></i>
+            </div>
+            <li><a  class="home" href="#">Home</a></li>
+            <li><a class="about_me" href="#">About Me</a></li>
+            <li><a class="skills" href="#to_stop_for_skills">Skills</a></li>
+            <li><a class="projects" href="#projects_top_section">Projects</a></li>
+            <li><a class="contact" href="#contact_top_section">Contact</a></li>
+            <!-- <li id="resumeBtnOnNavbar"><a class="resume" href="#">Resume<i class='far fa-arrow-alt-circle-down'></i></a></li> -->
+          </ul>
+          
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
           </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <!-- contact section ends -->
-
-
-  <!-- footer section starts -->
-  <section class="footer" id="contact">
-
-    <div class="box-container">
-
-      <div class="box">
-        <h3>Venkatesh's Portfolio</h3>
-        <p>Thank you for visiting my portfolio website. Connect with me over socials. <br /> <br /> Keep Rising 🚀</p>
-      </div>
-
-      <div class="box">
-        <h3>quick links</h3>
-        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-        <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
-
-      </div>
-      <!--  -->
-      <div class="box">
-        <h3>contact info</h3>
-        <p id="contact-phone"> <i class="fas fa-phone"></i>+91 8439192987</p>
-        <p id="contact-email"> <i class="fas fa-envelope"></i>divyanshgoel777@gmail.com</p>
-        <p> <i class="fas fa-map-marked-alt"></i>Pilkhuwa, Uttar Pradesh, India</p>
-        <div class="share">
-
-          <a id="contact-linkedin" href="https://www.linkedin.com/in/venkatesh-saragadam-93420b257/" class="fab fa-linkedin"
-            aria-label="LinkedIn" target="_blank"></a>
-          <a id="contact-github" href="https://github.com/Venkysanju246" class="fab fa-github" aria-label="GitHub"
-            target="_blank"></a>
-
         </div>
-      </div>
+    </nav>
+
+    <div class="contentBelowNav">
+        <div class="innerContent">
+            <h3>Hi, I am Venkatesh Saragadam,</h3>
+            <h4>A Node JS Backend Developer</h4>
+            <div id="HomePageImg">
+                <img src="images/venky-professional-photo.jfif" alt="">
+            </div>
+            <p>Being willing to learn and work across technologies
+                 and domains is a valuable skill in today's rapidly 
+                 changing job market. It shows that you are adaptable,
+                  curious, and open-minded. Exploring new technologies 
+                  and using them to tackle real-life problems can also 
+                  demonstrate creativity, innovation, and problem-solving skills,
+                   which are highly sought after by employers. It's always good 
+                   to keep up with the latest trends and developments in your field to stay ahead of the curve and remain relevant.</p>
+                        
+            <div id="outerIconContainer">
+                <div id="iconHolder">
+                    <ul>
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                        <li class="socialIcons"><a href="https://www.linkedin.com/in/venkatesh-saragadam-93420b257/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="socialIcons"><a href="https://github.com/Venkysanju246" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li class="socialIcons"><a href="https://www.quora.com/profile/Sanju-1106" target="_blank"><i class="fa fa-quora"></i></a></li>
+                    </ul>
+                </div>
+                <div id="resumeButtons">
+                     <div>
+                        <button id="resume-button-2" type="button"><span></span>View Resume</button>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+                    </div>
+                    <div>
+                        <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
+                        <!-- <a href="https://wallpapercave.com/wp/wp2599594.jpg" download="#"><button class="resumeButton" type="button"><span></span>Download Resume</button></a> -->
+                        <a href="./Venkatesh-Saragadam-Resume.pdf" download><button id="resume-button-2"
+                            type="button"><span></span>Download Resume</button></a>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Skills -->
+<div id="to_stop_for_skills"></div>
+<section class="class_skills" id="skills">
+    <div class="section_container">
+        <h2>SKILLS</h2>
+        <div id="skills_div">
+            <div id="frontend_skills">
+                <div id="frontend_div1_container">
+                    <div id="frontend_div1">
+                        <h3 id="frontend_title">Frontend</h3>
+                    </div>
+                </div>
+                <div id="frontend_div2">
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-html-5-48.png" alt="">
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-css3-48.png" alt="">
+                        </div>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-javascript-48.png" alt="">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="backend_skills">
+                <div id="backend_div1_container">
+                    <div id="backend_div1">
+                        <h3>Backend</h3>
+                    </div>
+                </div>
+                
+                <div id="backend_div2">
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-java-48.png" alt="">
+                        </div>
+                        <h3>Express JS</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-spring-logo-48.png" alt="">
+                        </div>
+                        <h3>Mongo DB</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/hibernate_logo_whitebkg_stacked_256px.png" alt="">
+                        </div>
+                        <h3>Websocket.io</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-mysql-logo-48 (1).png" alt="">
+                        </div>
+                        <h3>Socket.io</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" alt="">
+                        </div>
+                        <h3>Node JS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="tools_title">
+            <h3 id="tools_title_div">Tools</h3>
+        </div>
+
+        <div id="tools_div_container">
+            <div id="tools_div">
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/icons8-github-48.png" alt="">
+                    </div>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/icons8-git-48.png" alt="">
+                    </div>
+                    <h3>Git</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/netlify_logo.png" alt="">
+                    </div>
+                    <h3>Netlify</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/Postman.png" alt="">
+                    </div>
+                    <h3>Postman</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/Swagger_logo.png" alt="">
+                    </div>
+                    <h3>Swagger</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects and Stats -->
+<div id="projects_top_section"></div>
+<section class="class_projects" id="projects">
+    <div class="section_container" id="projects_section_container">
+        <h2>PROJECTS</h2>
+        <div id="projectCards_1_2">
+            <div id="myhours_clone">
+                <h1 class="project_title" data-aos="fade-right">Clarksusa Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/clarksusa.png" alt="">
+                    </div>
+                    <div>
+                        <p class="project_desc" data-aos="flip-up">Clarksusa is the online store for the Clarks shoe brand in the United States. The website offers a wide selection of footwear for men, women, and children, as well as handbags and accessories.</p>
+                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days" data-aos="flip-up">An individual project developed within 4 days.</p>
+                    </div>
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="myhours_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="myhours_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+
+            <div id="wrike_clone">
+                <h1 class="project_title" data-aos="fade-right">Burberry Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/burberry.png" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">Burberry's website is the online platform for the luxury British fashion brand, offering a wide range of clothing, accessories, and fragrances for men, women, and children. It also features information about the company's history, sustainability efforts, and social responsibility initiatives.</p>
+                        <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days">A collaborative project developed by a 5-member team within 4 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="wrike_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="wrike_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="projectCards_1_2">
+            <div id="hotstar_clone">
+                <h1 class="project_title" data-aos="fade-right">Kindmeal Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/kindmeal.png" alt="">
+                    </div>
+                    <div>
+                        <p class="project_desc" data-aos="flip-up">KindMeal is an online platform that promotes healthy, sustainable, and ethical eating by offering exclusive discounts on vegetarian and vegan meals at various restaurants and cafes.</p>
+                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript | Express | Mongo DB</h4>
+                        <p class="members_days" data-aos="flip-up">An individual project developed within a week.</p>
+                    </div>
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="hotstar_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="hotstar_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- <div id="youtube_clone">
+                <h1 class="project_title" data-aos="fade-right">Youtube Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img"  src="images/youtube_ss.jpeg" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">YouTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others.</p>
+                        <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days">An individual project developed within a week.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="youtube_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="youtube_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+
+
+
+
+        <div id="projectCards_3">
+            <!-- <div id="wrike_clone">
+                <h1 class="project_title" data-aos="fade-right">AuctionKing</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" style="object-fit:cover;" src="https://cdn2.dontpayfull.com/media/logos/size/300x300/auctionking.com..png?v=20220728030452590120" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">Automation auction system is an online auction system, where buyer can buy the product and seller can sell the product. This system store the all data in this system. It is backend server which built with the help of the java, sql, jdbc and dao technologies. 
+                        </p>
+                        <h4 class="tech_stack">Tech Stack: Java | SQL | JDBC</h4>
+                        <p class="members_days">An individual console-based project developed within 5 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="auction_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="auction_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div> -->
+
+            <div id="wrike_clone">
+                <!-- <h1 class="project_title" data-aos="fade-right">Online Vegetable Sales System</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" style="object-fit:cover;" src="https://tse1.mm.bing.net/th?id=OIP.7tBCk4KuPW40C3tbqMHnqQHaHa&pid=Api&P=0" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">SabziBazar is a Online vegetable sales system that can provide services 
+                            to admins and applicants to fetch and see details along with to perform relevant operations 
+                            on the data as per the accessibility. 
+                        </p>
+                        <h4 class="tech_stack">Java | SQL | Spring Boot | JPA + Hibernate</h4>
+                        <p class="members_days">A collaborative project developed by a 5-member team within 5 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="sabziBazar_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="sabziBazar_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
     </div>
 
-    <h1 class="credit">Designed </i> by <a href="https://www.linkedin.com/in/venkatesh-saragadam-93420b257/"> 👨‍💻 Venkatesh Saragadam</a></h1>
-    <!-- <i class="fa fa-heart pulse"></i> -->
-  </section>
-  <!-- footer section ends -->
+    <div id="gitStatCals">
+        <h3>My GitHub Statistics & Calender</h3>
+    </div>
+    
+    
+    <section id="github-calender-section">
+        <div id="github-stats">
+            <br>
+            <div class="calendar" style="width:100%; margin-bottom: 50px;">    
+            </div>
+           
+            <div id="github_stats_container">
+                <div id="github_stats">
+                    <p><img src="https://tinyurl.com/bdh33yw3" alt="Venkatesh-Saragadam" /></p>
+                    <p><img src="https://tinyurl.com/4vz7tp7v" alt="Venkatesh Saragadam"/></p>
+                </div>
+            </div>
+         </div>
+    </section>
+</section>
 
 
-  <!-- scroll top btn -->
-  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
-  <!-- scroll back to top -->
 
+<!-- Contact -->
+<div id="contact_top_section"></div>
+<section class="class_contact" id="contact">
+    <div class="section_container">
+        <h2 id="contact_title_h2">CONTACT</h2>
+    </div>
+    <div id="get_in_touch_container">
+        <div id="get_in_touch">
+            <h4>If you are beginning a project, facing difficulties with an ongoing one, or aiming to enhance an existing one, and finding it challenging to understand technical concepts, please don't hesitate to contact me. I'll do my best to assist you.</h4>
+        </div>
+    </div>
+    
+    <div id="contactEmailAddress">
+        <div id="contactAndEmailAndAddress">
+            <div id="contactNo"><h4><i class='fas fa-mobile-alt'></i> +91 8106072858</h4></div>
+            <div id="emailId"><h4><i class='fas fa-envelope'></i> sanjuvenky246@gmail.com</h4></div>
+            <div id="address">
+                <h4><i class='fas fa-map-marker-alt'></i> Visakhapatanama, Andhra Pradesh</h4>
+            </div>
+        </div>
+    
+    </div>
 
-  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-  <!-- jquery cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- typed.js cdn -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- particle.js links -->
-  <script src="./Assets/js/particles.min.js"></script>
-  <script src="./Assets/js/app.js"></script>
-
-  <!-- vanilla tilt.js links -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
-    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- scroll reveal anim -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-  <script src="./Assets/js/script.js"></script>
+    <div id="contact_iconHoler">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/venkatesh-saragadam-93420b257/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Venkysanju246" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.quora.com/profile/Sanju-1106" target="_blank"><i class="fa fa-quora"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div id="end_wish">
+        <h4>Wish you become your best version for no reason.<i class="far fa-smile"></i></h4>
+    </div>
+</section>
+  
 
 </body>
-
 </html>
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector("#nav-menu");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const cancelBtn1 = document.querySelector(".home");
+    const cancelBtn2 = document.querySelector(".about_me");
+    const cancelBtn3 = document.querySelector(".skills");
+    const cancelBtn4 = document.querySelector(".projects");
+    const cancelBtn5 = document.querySelector(".contact");
+    const cancelBtn6 = document.querySelector(".resume");
+    const resumeBtn = document.querySelector(".resumeButton");
+    const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
+    
+    resumeBtnOnNavbar.onclick = () =>{
+        window.open("https://drive.google.com/file/d/1f5KsaH3LyEP8TBbAI-LZyHWa-AOwGeJ7/view?usp=share_link", '_blank', 'noreferrer');
+    }
+    resumeBtn.onclick = ()=>{
+        window.open("https://drive.google.com/file/d/1f5KsaH3LyEP8TBbAI-LZyHWa-AOwGeJ7/view?usp=share_link", '_blank', 'noreferrer');
+    }
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
 
+     cancelBtn1.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
 
+    cancelBtn2.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+
+     cancelBtn3.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+
+    cancelBtn4.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+
+    cancelBtn5.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+
+    cancelBtn6.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+  </script>
+  <script src="js/navbar.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/calendar.js"></script>
+<script>
+    GitHubCalendar(".calendar", "Abhinav-Mourya");
+    GitHubCalendar(".calendar", "Abhinav-Mourya", { responsive: true });
+</script>
+  
 
 
