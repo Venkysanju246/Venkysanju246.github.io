@@ -30,6 +30,15 @@ hotstarLiveBtn.onclick = () =>{
     window.open("https://kindmealfull.netlify.app/", '_blank');
 }
 
+let hotstarSrcBtn = document.querySelector("#youtube_source_code_btn");
+hotstarSrcBtn.onclick = () =>{
+    window.open("https://github.com/Venkysanju246/Cosmos-Project", '_blank');
+}
+
+let hotstarLiveBtn = document.querySelector("#youtube_live_btn");
+hotstarLiveBtn.onclick = () =>{
+    window.open("https://courageous-manatee-fef8c0.netlify.app/", '_blank');
+}
 
 
 let youtubeSrcBtn = document.querySelector("#youtube_source_code_btn");
